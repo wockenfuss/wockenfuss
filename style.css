@@ -80,6 +80,8 @@ body{
 
 	margin: 50px auto;
 	background-color: green;
+	
+	
 }
 	#outerbox:hover{
 		background-color:purple;
@@ -90,7 +92,7 @@ body{
 
 
 #logo{
-	width: 90%;
+	width: 85%;
 	margin: 50px auto;
 /*	display: inline-block;*/
 	background-color: blue;
