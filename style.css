@@ -18,7 +18,7 @@ h2{ font-size: 1.5em;
 		}
 
 a{
-	color: green;
+	color: blue;
 	text-decoration: none;
 }
 	a:hover {
@@ -35,17 +35,7 @@ body{
     font-weight: normal;
 }
 
-img
-{
-	opacity:0.2;
-	width: 50%;
 
-}
-img.center {   display: block;   margin-left: auto;   margin-right: auto; }
-
-	img:hover{
-		opacity: 1;
-	}
 
 #page{ 
 	/*margin: 20px; */
@@ -53,15 +43,12 @@ img.center {   display: block;   margin-left: auto;   margin-right: auto; }
 		display: inline-block;
 		}
 		#page:hover{
-			background-color:black;
+			background-color:yellow;
 		}
 		#page:active{
-			background-color:white;
+			background-color:green;
 		}
-/*#icon{
-	width: 100%;
-	margin: auto;
-}*/
+
 
 #outerbox3{
 	width: 95%;
@@ -106,7 +93,7 @@ img.center {   display: block;   margin-left: auto;   margin-right: auto; }
 	width: 90%;
 	margin: 50px auto;
 /*	display: inline-block;*/
-	background-color: yellow;
+	background-color: blue;
 }
 	#logo:hover{
 		background-color:green;
@@ -118,55 +105,40 @@ img.center {   display: block;   margin-left: auto;   margin-right: auto; }
 
 	#innerbox{
 		width: 90%;
-
+		background-image:url(cat.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
 		margin: 20px auto;
-		background-color: blue;
+	/*	background-color: blue;*/
+	opacity: .8;
 	}
-		#innerbox:hover{
-			background-color:yellow;
-		}
-		#innerbox:active{
-			background-color:green;
-		}
+
+
 		
 		
 #content{
-	width: 85%;
-	margin: 40px ;
-	background: #eee;
-	padding: 20px;
-	clear: both;
+	width: 75%;
+	margin: auto ;
+	/*background: #eee;*/
+	background-color: yellow;
 
-	/*opacity: .7;*/
-	display: inline-block;
-	
+	padding: 20px;
+/*	clear: both;*/
+
+	opacity: .7;
+/*	display: inline-block;*/
+
 
 
 }
 
 #content:hover{
     background-color: orange;
-    color:white;
+    color: black;
 }
 #content:active{
     background-color: red;
     color:white;
 }
 
-/*
-#footer{
-	border-bottom: 1px #ccc solid;
-	margin-bottom: 10px;
 
-}
-	#footer p{
-		text-align: right;
-		text-transform: uppercase;
-		font-size: 80%;
-		color: gray;
-		
-	}*/
-
-
-/*#content,
-ul li a{ box-shadow: 0px 1px 1px #999; }*/
