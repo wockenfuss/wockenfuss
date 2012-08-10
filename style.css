@@ -139,8 +139,7 @@ body{
     color: black;
 }
 #content:active{
-    background-color: red;
-    color:white;
+	opacity: 0;
 }
 
 
