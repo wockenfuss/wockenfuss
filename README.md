@@ -1,0 +1,1 @@
+Building a sample website from plain old HTML and CSS as an introductory pre-bootcamp Dev Bootcamp exercise.
